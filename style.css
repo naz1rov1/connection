@@ -242,7 +242,7 @@ p {
     margin-top: 50px;
     padding: 20px;
     font-size: 0.9rem;
-    color: #888;
+    color: white;
     background-color: #0056b3;
 }
 
@@ -259,8 +259,28 @@ p {
     justify-content: center;
     align-items: center;
 }
+.a-tg {
+color: black;
+}
+
+.img-7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
 
 
+
+.footer-div {
+
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.footer-div p{
+color: white;
+}
 /* Responsive */
 @media (max-width: 600px) {
     .header h1 {
