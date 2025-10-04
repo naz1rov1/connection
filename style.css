@@ -273,6 +273,32 @@ p {
 .footer-div p {
   color: white;
 }
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+
+  margin-left: 80px;
+}
+
+.all a {
+  text-decoration: none;
+  color: rgb(0, 4, 255);
+}
+
+.all img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+.p-1 {
+  margin-left: 80px;
+  margin-top: 20px  ;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .header h1 {
